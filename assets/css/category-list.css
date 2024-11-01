@@ -1,0 +1,221 @@
+/* Start Category List CSS */
+.nxtcode-category-list__container {
+  max-width: 430px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nxtcode-category-list-two .nxtcode-category-list__container {
+  max-width: 1230px;
+}
+/* End Image marker CSS */
+
+/* Start Category List Two CSS */
+.nxtcode-category-list__info-two h3 {
+  border-radius: 0 0 0 0;
+  padding: 13px 24px;
+}
+
+.nxtcode-category-list__info-two .nxtcode-category-list__block {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nxtcode-category-list__info-two .nxtcode-category-list__icon {
+  background-color: #fafafa;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 52px;
+  height: 52px;
+  margin-right: 10px;
+}
+
+.nxtcode-category-list__info-two .nxtcode-category-list__icon img {
+  max-width: 28px;
+}
+
+.nxtcode-category-list__info-two .nxtcode-category-list__title h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* End Category List Two CSS */
+
+/* Start Category List Three CSS */
+.nxtcode-category-list__info-three .nxtcode-category-list__block {
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px 16px;
+}
+
+.nxtcode-category-list__info-three .nxtcode-category-list__single {
+  margin: 0;
+}
+
+.nxtcode-category-list__info-three .nxtcode-category-list__icon {
+  margin-right: 18px;
+}
+
+.nxtcode-category-list__info-three .nxtcode-category-list__icon img {
+  max-width: 90px;
+}
+
+.nxtcode-category-list__info-three .nxtcode-category-list__title h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+.nxtcode-category-list__info-three .nxtcode-category-list__number {
+  font-size: 18px;
+}
+/* End Category List Three CSS */
+
+/* Start Category List Four CSS */
+.nxtcode-category-list__full {
+  display: flex;
+}
+
+.nxtcode-category-list__full .nxtcode-category-list__info-one {
+  flex: 0 0 400px;
+  margin-right: 60px;
+}
+
+.nxtcode-category-list__banner {
+  flex: 0 0 calc(100% - 460px);
+  background-color: #F1F1F1;
+  border-radius: 15px;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nxtcode-category-list__banner-content h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 58px;
+  padding-bottom: 30px;
+}
+
+.nxtcode-category-list__banner-content a {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #000;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 156px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nxtcode-category-list__banner-content a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-category-list__full {
+    flex-direction: column;
+  }
+  .nxtcode-category-list__full .nxtcode-category-list__info-one {
+    margin-right: 0;
+  }
+  .nxtcode-category-list__banner {
+    flex: 0 0 100%;
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .nxtcode-category-list__banner-content {
+    text-align: center;
+  }
+  .nxtcode-category-list__banner-content a {
+    margin: 0 auto;
+  }
+  .nxtcode-category-list__banner-content h2 {
+    line-height: 42px;
+  }
+}
+/* End Category List Four CSS */
+
+/* Start Category List Five CSS */
+.nxtcode-category-list__full .nxtcode-category-list__info-two {
+  flex: 0 0 400px;
+  margin-right: 60px;
+}
+
+.nxtcode-category-list__banner-two {
+  background-color: #F4F0E2;
+  border-radius: 0;
+  padding: 40px 60px;
+  position: relative;
+}
+
+.nxtcode-category-list__banner-content span {
+  font-family: 'Jost', sans-serif;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.nxtcode-category-list__banner-two .nxtcode-category-list__banner-content h2 {
+  padding-bottom: 20px;
+}
+
+.nxtcode-category-list__banner-two .nxtcode-category-list__banner-content a {
+  background-color: #FFCF3E;
+  border-color: #FFCF3E;
+  border-radius: 0;
+}
+
+.nxtcode-category-list__banner-two::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 325px solid #FFCF3E;
+  border-left: 400px solid transparent;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.nxtcode-category-list__banner-thumbnail {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-category-list__full {
+    flex-direction: column;
+  }
+  .nxtcode-category-list__full .nxtcode-category-list__info-two {
+    margin-right: 0;
+  }
+  .nxtcode-category-list__banner {
+    flex: 0 0 100%;
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .nxtcode-category-list__banner-content {
+    text-align: center;
+  }
+  .nxtcode-category-list__banner-content a {
+    margin: 0 auto;
+  }
+  .nxtcode-category-list__banner-content h2 {
+    line-height: 42px;
+  }
+}
+/* End Category List Five CSS */

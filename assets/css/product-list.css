@@ -1,0 +1,340 @@
+/* Start Product List CSS */
+
+.nxtcode-pl__info {
+  border: 1px solid #EFEFEF;
+  padding: 25px 35px 25px 25px;
+}
+
+.nxtcode-pl__info:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.nxtcode-pl__item {
+  display: flex;
+  gap: 35px;
+}
+
+.nxtcode-pl__thumbnail-block {
+  flex: 0 0 360px;
+  position: relative;
+}
+
+.nxtcode-pl__content {
+  width: 100%;
+}
+
+.nxtcode-pl__thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nxtcode-pl__thumbnail img {
+  width: 100%;
+}
+
+.nxtcode-pl__cart-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nxtcode-pl__cart {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -22px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nxtcode-pl__cart a {
+  width: 42px;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nxtcode-pl__cart a span {
+  font-size: 20px;
+}
+
+.nxtcode-pl__cart a:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.nxtcode-pl__cart a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.nxtcode-pl__cart-btn {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  width: calc(100% - 30px);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.nxtcode-pl__cart-btn a {
+  display: block;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  color: #000;
+  background-color: #fff;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nxtcode-pl__cart-btn a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.nxtcode-pl__new-arrival {
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #fff;
+  background-color: #160F00;
+  padding: 4px 14px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  z-index: 1;
+}
+
+.nxtcode-pl__content h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #000;
+  margin: 16px 0;
+}
+
+.nxtcode-pl__content h3 a {
+  color: #000;
+}
+
+.nxtcode-pl__content h3 a:hover {
+  color: #906615;
+}
+
+.nxtcode-pl__price .woocommerce-Price-amount {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #626262;
+}
+
+.nxtcode-pl__stock {
+  display: flex;
+  align-items: center;
+  padding: 15px 0 30px;
+}
+
+.nxtcode-pl__stock img {
+  margin-right: 10px;
+}
+
+.nxtcode-pl__stock span {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #906615;
+  text-transform: uppercase;
+}
+
+.nxtcode-pl__content p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #626262;
+}
+
+.nxtcode-pl__add-to-cart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.nxtcode-pl__cat {
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #626262;
+  text-transform: uppercase;
+}
+
+.nxtcode-pl__add-to-cart a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #906615;
+  height: 52px;
+  color: #fff;
+}
+
+.nxtcode-pl__add-to-cart a:hover {
+  background-color: #160F00;
+}
+
+.nxtcode-pl__add-to-cart a:first-child {
+  width: 185px;
+}
+
+.nxtcode-pl__add-to-cart a:nth-child(2),
+.nxtcode-pl__add-to-cart a:nth-child(3) {
+  background-color: #160F00;
+  width: 52px;
+}
+
+.nxtcode-pl__add-to-cart a:nth-child(2):hover,
+.nxtcode-pl__add-to-cart a:nth-child(3):hover {
+  background-color: #906615;
+}
+
+.nxtcode-pl__add-to-cart a span {
+  font-family: 'Jost', sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.nxtcode-pl__add-to-cart a svg {
+  width: 20px;
+}
+
+.nxtcode-pl__add-to-cart a svg path,
+.nxtcode-pl__add-to-cart a svg circle {
+  fill: #fff !important;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-pl {
+    padding: 80px 0;
+  }
+  .nxtcode-pl__item {
+    flex-direction: column;
+  }
+  .nxtcode-pl__thumbnail-block {
+    flex: 0 0 100%;
+  }
+}
+
+/* End Product List CSS */
+
+/* Start Product List Two CSS */
+.nxtcode-pl__info-two {
+  border-radius: 6px;
+  padding: 20px 35px 20px 20px;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__item {
+  align-items: center;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__thumbnail-block {
+  flex: 0 0 260px;
+  position: relative;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__price .woocommerce-Price-amount {
+  display: inline-block;
+  padding: 15px 0 25px;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__thumbnail-block:hover .nxtcode-pl__cart-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__thumbnail-block:hover .nxtcode-pl__cart {
+  right: 15px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__thumbnail-block:hover .nxtcode-pl__cart-btn {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__cat {
+  order: 1;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__rating-icon {
+  order: 3;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__content h3 {
+  order: 2;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__price {
+  order: 4;
+}
+
+.nxtcode-pl__info-two .nxtcode-pl__content p {
+  order: 5;
+}
+
+.elementor-element-edit-mode .nxtcode-pl__info-two:first-child .nxtcode-pl__cart-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.elementor-element-edit-mode .nxtcode-pl__info-two:first-child .nxtcode-pl__cart-overlay .nxtcode-pl__cart-btn {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* End Product List Two CSS */

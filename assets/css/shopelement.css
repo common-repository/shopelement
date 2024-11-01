@@ -1,0 +1,203 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.nxtcode-shopelement-widget blockquote,
+.nxtcode-shopelement-widget dl,
+.nxtcode-shopelement-widget dd,
+.nxtcode-shopelement-widget h1,
+.nxtcode-shopelement-widget h2,
+.nxtcode-shopelement-widget h3,
+.nxtcode-shopelement-widget h4,
+.nxtcode-shopelement-widget h5,
+.nxtcode-shopelement-widget h6,
+.nxtcode-shopelement-widget hr,
+.nxtcode-shopelement-widget figure,
+.nxtcode-shopelement-widget p,
+.nxtcode-shopelement-widget pre {
+  margin: 0;
+}
+
+.nxtcode-shopelement-widget img {
+  vertical-align: middle;
+}
+
+.nxtcode-shopelement-widget a {
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.site .site-main .nxtcode-shopelement-widget a {
+  text-decoration: none;
+}
+
+.nxtcode-shopelement-widget a:hover,
+.nxtcode-shopelement-widget a:focus {
+  text-decoration: none;
+}
+
+.nxtcode-shopelement-widget a:-webkit-any-link:focus {
+  outline-offset: 0;
+}
+
+.nxtcode-shopelement-widget input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.nxtcode-shopelement-widget svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.nxtcode-shopelement-widget button,
+.nxtcode-shopelement-widget input,
+.nxtcode-shopelement-widget select,
+.nxtcode-shopelement-widget textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.nxtcode-shopelement-widget [type=reset],
+.nxtcode-shopelement-widget [type=submit],
+.nxtcode-shopelement-widget button,
+.nxtcode-shopelement-widget html [type=button] {
+  -webkit-appearance: button;
+}
+
+.screen-reader-text {
+  clip: rect(1px,1px,1px,1px);
+  word-wrap: normal!important;
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  overflow-wrap: normal!important;
+  padding: 0;
+  position: absolute!important;
+  width: 1px;
+}
+
+/* Start Woocommerce Price CSS */
+
+.nxtcode-shopelement-widget del {
+  text-decoration: none;
+}
+
+.nxtcode-shopelement-widget del .woocommerce-Price-amount {
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.nxtcode-shopelement-widget ins {
+  text-decoration: none;
+}
+
+/* End Woocommerce Price CSS */
+
+/* Start Common Pagination CSS */
+
+.nxtcode-shopelement-widget .woocommerce-pagination {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.nxtcode-shopelement-widget .woocommerce-pagination .page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nxtcode-shopelement-widget .woocommerce-pagination .page-numbers li .page-numbers {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1px;
+  color: #000;
+  background-color: #EFEFEF;
+  border: 1px solid #EFEFEF;
+  border-radius: 4px;
+  padding: 1px 0 0;
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.nxtcode-shopelement-widget .woocommerce-pagination .page-numbers li .page-numbers.current {
+  border: 1px solid #5046E5;
+  background-color: #5046E5;
+  color: #fff;
+}
+
+.nxtcode-shopelement-widget .woocommerce-pagination .page-numbers li .page-numbers:hover {
+  border: 1px solid #5046E5;
+  background-color: #5046E5;
+  color: #fff;
+}
+
+/* End Common Pagination CSS */
+
+/* Start Common Rating CSS */
+
+.rating-icon {
+  display: inline-flex;
+  line-height: 15px;
+  position: relative;
+}
+
+.rating-icon__active {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.rating-icon__active-width {
+  display: inline-flex;    
+  line-height: 15px;
+  width: 83px;
+}
+
+.rating-icon__fill path {
+  fill: #ccc;
+}
+
+.rating-icon__fill-active path {
+  fill: #FF9900;
+}
+
+/* End Common Rating CSS */
+
+/* Start no product found design */
+
+.nxtcode-product-notfound {
+  background-color: #F5F5F5;
+  padding: 50px 30px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.nxtcode-product-notfound h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #003036;
+}
+
+/* End no product found design */

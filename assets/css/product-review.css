@@ -1,0 +1,208 @@
+.nxtcode-product-review__container {
+  max-width: 410px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+/* Start Product Review One CSS */
+.nxtcode-product-review__info {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 45px 30px 0;
+}
+
+.nxtcode-product-review__reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.nxtcode-product-review__reviewer-avatar {
+  flex: 0 0 70px;
+  margin-right: 15px;
+}
+
+.nxtcode-product-review__reviewer-avatar img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.nxtcode-product-review__reviewer-info h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #000;
+}
+
+.nxtcode-product-review__date {
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#585858;
+  padding: 0 0 5px 0;
+}
+
+.nxtcode-product-review__rating-icon {
+  position: relative;
+}
+
+.nxtcode-product-review__rating-icon-list {
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+.nxtcode-product-review__rating-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.nxtcode-product-review__rating-icon-active {
+  display: block;
+  width: 11px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.nxtcode-product-review__info p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #000;
+  padding: 45px 0;
+}
+
+.nxtcode-product-review__product-price {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nxtcode-product-review__product img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.nxtcode-product-review__price h5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #585858;
+  padding-bottom: 5px;
+}
+
+.nxtcode-product-review__price span {
+  display: block;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000;
+}
+/* End Product Review One CSS */
+
+/* Start Product Review Two CSS */
+.nxtcode-product-review__info-two .nxtcode-product-review__date {
+  padding: 5px 0 9px 0;
+}
+
+.nxtcode-product-review__info-two .nxtcode-product-review__product-price {
+  border: none;
+  padding: 0 20px 45px;
+}
+/* End Product Review Two CSS */
+
+/* Start Product Review Three CSS */
+.nxtcode-product-review__info-three {
+  display: flex;
+  flex-direction: column;
+  margin-top: 51px;
+  padding-top: 0;
+  padding-bottom: 35px;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__product-price {
+  order: 1;
+}
+
+.nxtcode-product-review__info-three p {
+  order: 2;
+  color: #131313;
+  padding: 35px 0 25px;
+  text-align: center;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__reviewer {
+  order: 4;
+  justify-content: center;
+}
+
+.nxtcode-product-review__time {
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__time {
+  order: 3;
+  text-align: center;
+}
+
+.nxtcode-product-review__time span {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  padding: 4px 16px;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__product-price {
+  order: 1;
+  display: block;
+  border: none;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__product img {
+  width: 105px;
+  height: 105px;
+  border-radius: 8px;
+  margin-top: -51px;
+  margin-bottom: 25px;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__price span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #007466;
+  padding-bottom: 35px;
+}
+
+.nxtcode-product-review__info-three .nxtcode-product-review__rating-icon {
+  margin-left: 20px;
+}
+/* End Product Review Three CSS */

@@ -1,0 +1,191 @@
+/* Start Brandlogo CSS */
+
+.nxtcode-brandlogo__slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.nxtcode-brandlogo__slider {
+  margin: 0 -15px;
+}
+
+.nxtcode-brandlogo__slider {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.nxtcode-brandlogo__slider.slick-initialized {
+  visibility: visible;
+  opacity: 1;    
+}
+
+.nxtcode-brandlogo__slide {
+  text-align: center;
+}
+
+.nxtcode-brandlogo__slide a {
+  display: block;
+}
+
+.nxtcode-brandlogo__slide a img {
+  box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+  border-radius: 2px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nxtcode-brandlogo__slide {
+  padding: 15px;
+}
+
+.nxtcode-brandlogo__slider {
+  position: relative;
+}
+
+.nxtcode-brandlogo__slider::before,
+.nxtcode-brandlogo__slider::after {
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  height: 1px;
+  width: calc(50% - 90px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nxtcode-brandlogo__slider::before {
+  left: 15px;
+}
+
+.nxtcode-brandlogo__slider::after {
+  right: 15px;
+}
+
+.nxtcode-brandlogo__slider button:focus {
+  outline: 0px;
+}
+
+.nxtcode-brandlogo__slider .slick-arrow {
+  font-size: 0;
+  background-color: #F1F1F1;
+  border: none;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 4px;
+  top: auto;
+  z-index: 1;
+}
+
+.nxtcode-brandlogo__slider .slick-prev {
+  left: calc(50% - 40px);
+  right: auto;
+}
+
+.nxtcode-brandlogo__slider .slick-next {
+  right: calc(50% - 40px);
+  left: auto;
+}
+
+.nxtcode-brandlogo__slider .slick-arrow::before {
+  position: absolute;
+  content: "";
+  top: 11px;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #000;
+}
+
+.nxtcode-brandlogo__slider .slick-prev::before {
+  left: 14px;
+  border-left: 2px solid #000;
+  transform: rotate(-45deg);
+}
+
+.nxtcode-brandlogo__slider .slick-next::before {
+  left: 9px;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.nxtcode-brandlogo__slider .slick-dots {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nxtcode-brandlogo__slider .slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.nxtcode-brandlogo__slider .slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nxtcode-brandlogo__slider .slick-dots li button:before {
+  color: #cccccc;
+}
+
+.nxtcode-brandlogo__slider .slick-dots .slick-active button:before,
+.nxtcode-brandlogo__slider .slick-dots li button:hover:before {
+  color: #242424;
+}
+
+.nxtcode-brandlogo__slider .slick-dots .slick-active button:before,
+.nxtcode-brandlogo__slider .slick-dots li button:hover:before {
+  transform: scale(1.5);
+}
+
+/* End Brandlogo CSS */
+
+/* Start Brandlogo One CSS */
+
+.nxtcode-brandlogo__info-one .nxtcode-brandlogo__slider .slick-arrow {
+ display: none !important;
+}
+
+.nxtcode-brandlogo__info-one .nxtcode-brandlogo__slider::before,
+.nxtcode-brandlogo__info-one .nxtcode-brandlogo__slider::after {
+  display: none;
+}
+
+/* End Brandlogo One CSS */
+
+/* End Brandlogo Two CSS */
+
+.nxtcode-brandlogo__info-two .nxtcode-brandlogo__slider .slick-dots {
+  display: none !important;
+}
+
+.nxtcode-brandlogo__info-two .nxtcode-brandlogo__slider {
+  padding-bottom: 60px;
+}
+
+/* End Brandlogo Two CSS */

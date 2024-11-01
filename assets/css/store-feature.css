@@ -1,0 +1,172 @@
+/* Start Store Feature CSS */
+
+.nxtcode-storefeature__icon {
+  text-align: center;
+}
+
+.nxtcode-storefeature__icon img {
+  margin: 0 auto;
+}
+
+.nxtcode-storefeature__content h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nxtcode-storefeature__content p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  color: #626262;
+}
+
+/* End Store Feature CSS */
+
+/* Start Store Feature One CSS */
+
+.nxtcode-storefeature__info-one {
+  text-align: center;
+}
+
+.nxtcode-storefeature__info-one .nxtcode-storefeature__icon {
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.nxtcode-storefeature__info-one .nxtcode-storefeature__content h3 {
+  line-height: 29px;
+  padding: 10px 0;
+}
+
+.nxtcode-storefeature__info-one .nxtcode-storefeature__content p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+/* End Store Feature One CSS */
+
+/* Start Store Feature Two CSS */
+
+.nxtcode-storefeature__info-two {
+  box-shadow: 0px 15px 14px 0px rgba(0, 0, 0, 0.14);
+  padding: 35px 30px;
+  text-align: center;
+}
+
+.nxtcode-storefeature__info-two .nxtcode-storefeature__icon span {
+  display: inline-block;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FF3F3F;
+}
+
+.nxtcode-storefeature__info-two .nxtcode-storefeature__content h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 2.1px;
+  padding: 14px 0 10px;
+}
+
+.nxtcode-storefeature__info-two .nxtcode-storefeature__content p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* End Store Feature Two CSS */
+
+/* Start Store Feature Three CSS */
+
+.nxtcode-storefeature__info-three {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nxtcode-storefeature__info-three .nxtcode-storefeature__icon {
+  background-color: #f0f0f0;
+  margin-right: 45px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nxtcode-storefeature__info-three .nxtcode-storefeature__content h3 {
+  line-height: 28px;
+  padding-bottom: 6px;
+  text-transform: initial;
+}
+
+.nxtcode-storefeature__info-three .nxtcode-storefeature__content p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* End Store Feature Three CSS */
+
+/* Start Store Feature Four CSS */
+
+.nxtcode-storefeature__info-four {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__icon {
+  text-align: center;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__content {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__content span {
+  display: inline-block;
+  align-self: center;
+  flex-grow: 1;
+  border-style: solid;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-color: #000;
+  margin-left: 25px;
+  margin-right: 25px;
+  position: relative;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__content span::after {
+  position: absolute;
+  content: "";
+  top: -4px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid #000;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__content h3 {
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: initial;
+}
+
+.nxtcode-storefeature__info-four .nxtcode-storefeature__content p {
+  font-size: 15px;
+  line-height: 22px;
+}
+/* End Store Feature Four CSS */

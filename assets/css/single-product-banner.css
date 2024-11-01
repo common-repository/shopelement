@@ -1,0 +1,285 @@
+.nxtcode-single-product-banner {
+  background-color: #4A4C2E;
+  padding: 58px 15px;
+  text-align: center;
+}
+
+.nxtcode-single-product-banner h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
+
+/* Start Single Productbanner One CSS */
+.nxtcode-sp-banner {
+  padding: 120px 0;
+}
+
+.nxtcode-sp-banner__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nxtcode-sp-banner__single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nxtcode-sp-banner__info-one .nxtcode-sp-banner__thumbnail-block {
+  flex: 0 0 calc(100% - 424px);
+  border-right: 1px solid #000;
+  padding-right: 83px;
+}
+
+.nxtcode-sp-banner__thumbnail-block {
+  position: relative;
+}
+
+.nxtcode-sp-banner__thumbnail {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+}
+
+.nxtcode-sp-banner__new-arrival {
+  position: absolute;
+  left: -74px;
+  top: -74px;
+  z-index: 1;
+}
+
+.nxtcode-sp-banner__thumbnail-block h5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  color: #4D4C4C;
+  text-transform: uppercase;
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -102px;
+  top: 48%;
+}
+
+.nxtcode-sp-banner__cart {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nxtcode-sp-banner__cart a {
+  display: block;
+  width: 54px;
+  height: 54px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nxtcode-sp-banner__cart a:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.nxtcode-sp-banner__info-one .nxtcode-sp-banner__content {
+  flex: 0 0 424px;
+  padding-left: 75px;
+}
+
+.nxtcode-sp-banner__cat {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+
+.nxtcode-sp-banner__content h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+  padding: 15px 0;
+}
+
+.nxtcode-sp-banner__content p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #626262;
+  padding-bottom: 20px;
+}
+
+.nxtcode-sp-banner__content > span {
+  font-family: 'Jost', sans-serif;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  padding-bottom: 45px;
+}
+
+.nxtcode-sp-banner__add-to-cart {
+  display: flex;
+}
+
+.nxtcode-sp-banner__content a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  width: 210px;
+  height: 52px;
+  color: #fff;
+}
+
+.nxtcode-sp-banner__content a:first-child {
+  width: 210px;
+}
+
+.nxtcode-sp-banner__content a:last-child {
+  width: 52px;
+  margin-left: 15px;
+}
+
+.nxtcode-sp-banner__content a span {
+  font-family: 'Jost', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  padding-left: 12px;
+}
+
+.nxtcode-sp-banner__content a:first-child svg {
+  width: 21px;
+  height: 21px;
+  margin-right: 12px;
+}
+
+.nxtcode-sp-banner__content a:last-child svg {
+  width: 25px;
+}
+
+.nxtcode-sp-banner__content a svg path,
+.nxtcode-sp-banner__content a svg circle {
+  fill: #fff !important;
+}
+
+.nxtcode-sp-banner__info-one .nxtcode-sp-banner__content p {
+  display: none;
+}
+
+.nxtcode-sp-banner__info-one .nxtcode-sp-banner__content a:last-child {
+  display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-sp-banner {
+    padding: 80px 0;
+  }
+  .nxtcode-sp-banner__new-arrival {
+    display: none;
+  }
+  .nxtcode-sp-banner__single {
+    flex-direction: column;
+  }
+  .nxtcode-sp-banner__info-one .nxtcode-sp-banner__content {
+    flex: 0 0 100%;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .nxtcode-sp-banner__cart {
+    right: 0;
+  }
+  .nxtcode-sp-banner__info-one .nxtcode-sp-banner__thumbnail-block {
+    padding-right: 60px;
+  }
+  .nxtcode-sp-banner__thumbnail-block h5 {
+    right: -115px;
+  }
+} 
+/* End Single Productbanner One CSS */
+
+/* Start Single Productbanner Two CSS */
+.nxtcode-sp-banner_1 {
+  background-color: #F5F5F5;;
+}
+
+.nxtcode-sp-banner__info-two {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__new-arrival {
+  display: none;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__thumbnail-block h5 {
+  display: none;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__cart {
+  display: none;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__thumbnail {
+  background-color: transparent;
+  z-index: 1;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__single {
+  flex-direction: row-reverse;
+  margin: 0 -15px;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__thumbnail-block {
+  flex: 0 0 calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.nxtcode-sp-banner__content {
+  flex: 0 0 calc(50% - 30px);
+  margin: 0 15px;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__thumbnail::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  height: 355px;
+  background-image: url('../images/product-banner/thumbnail-bg.png');
+  z-index: -1;
+}
+
+.nxtcode-sp-banner__info-two .nxtcode-sp-banner__cat {
+  font-weight: 500;
+  color: #FF2424;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-sp-banner__info-two {
+    overflow: hidden;
+  }
+  .nxtcode-sp-banner__info-two .nxtcode-sp-banner__single {
+    flex-direction: column;
+  }
+}
+/* End Single Productbanner Two CSS */

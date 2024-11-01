@@ -1,0 +1,32 @@
+/* Start Product Grid CSS */
+
+.nxtcode-product-grid .nxtcode-product__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .nxtcode-product-grid .nxtcode-product__info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-product-grid .nxtcode-product__info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* End Product Grid CSS */
+
+/* Start Product Grid One CSS */
+
+.elementor-element-edit-mode .nxtcode-product__info-one article:first-child .nxtcode-product__single .nxtcode-product__cart-btn {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* End Product Grid One CSS */

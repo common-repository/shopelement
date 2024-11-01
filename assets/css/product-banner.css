@@ -1,0 +1,125 @@
+/* Start Productbanner CSS */
+
+.nxtcode-productbanner__single {
+  background-color: #ECEEE0;
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nxtcode-productbanner__content > span {
+  font-family: 'Jost', sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #626262;
+  text-transform: uppercase;
+}
+
+.nxtcode-productbanner__content h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000;
+  padding: 15px 0 20px;
+}
+
+.nxtcode-productbanner__content h3 span {
+  color: #FF060F;
+}
+
+.nxtcode-productbanner__btn {
+  font-family: 'Jost', sans-serif;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 13px 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nxtcode-productbanner__btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.nxtcode-productbanner__btn svg path {
+  transition: 0.3s ease-in-out;
+}
+
+.nxtcode-productbanner__btn:hover svg path {
+  fill: #fff;
+}
+
+.nxtcode-productbanner__btn-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nxtcode-productbanner__btn-content span {
+  order: 10
+}
+
+.nxtcode-productbanner__btn-content .nxtcode-productbanner__icon-align-left {
+  order: 5;
+}
+
+.nxtcode-productbanner__btn svg {
+	height: 1em;
+  width: auto;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-productbanner__single {
+    flex-direction: column;
+  }
+  .nxtcode-productbanner__content {
+    text-align: center;
+  }
+}
+
+/* End Productbanner CSS */
+
+/* Start Productbanner One CSS */
+
+.nxtcode-productbanner__info-one .nxtcode-productbanner__thumbnail {
+  flex: 0 0 42%;
+}
+
+.nxtcode-productbanner__info-one .nxtcode-productbanner__single {
+  border-radius: 10px;
+}
+
+/* End Productbanner One CSS */
+
+/* Start Productbanner Four CSS */
+.nxtcode-productbanner__info-four .nxtcode-productbanner__single {
+  background-color: #f8f8f8;
+  flex-direction: column-reverse;
+}
+
+.nxtcode-productbanner__info-four .nxtcode-productbanner__content {
+  background-color: #fff;
+  padding: 5px 70px 25px;
+  text-align: center;
+}
+
+.nxtcode-productbanner__info-four .nxtcode-productbanner__content h3 {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .nxtcode-productbanner__info-four .nxtcode-productbanner__content {
+    padding: 5px 20px 25px;
+  }
+}
+/* End Productbanner Four CSS */

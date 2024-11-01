@@ -1,0 +1,181 @@
+/* Start Customer Review CSS */
+
+.nxtcode-review__content span {
+  display: inline-block;
+  font-size: 56px;
+  line-height: 40px;
+}
+
+.nxtcode-review__content span svg {
+  width: 56px;
+}
+
+.nxtcode-review__content h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000;
+  padding: 25px 0;
+}
+
+.nxtcode-review__content p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #626262;
+  margin-bottom: 25px;
+}
+
+.nxtcode-review__reviewer-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nxtcode-review__reviewer-info h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+}
+
+.nxtcode-review__reviewer-info h5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #626262;
+}
+
+@media screen and (max-width: 991.98px) {
+  .nxtcode-review__reviewer-info,
+  .nxtcode-review__content {
+    text-align: center;
+  }
+}
+
+/* End Customer Review CSS */
+
+/* Start Customer Review One CSS */
+
+
+
+/* End Customer Review One CSS */
+
+/* Start Customer Review Two CSS */
+
+.nxtcode-review__info-two {
+  background-color: #F8F5F2;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.nxtcode-review__info-two .nxtcode-review__reviewer-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nxtcode-review__info-two .nxtcode-review__reviewer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.nxtcode-review__info-two .nxtcode-review__reviewer-avatar {
+  flex: none;
+  margin-right: 25px;
+}
+
+.nxtcode-review__info-two .nxtcode-review__reviewer-info h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 8px;
+}
+
+.nxtcode-review__info-two .nxtcode-review__content p {
+  line-height: 26px;
+  margin: 35px 0 0;
+}
+
+.nxtcode-review__info-two .nxtcode-review__rating {
+  line-height: 10px;
+  background-color: #fff;
+  border: 1px solid #E7E7E7;
+  border-radius: 50px;
+  padding: 8px 21px;
+  order: 3;
+}
+
+@media screen and (max-width: 991.98px) {
+  .nxtcode-review__info-two .nxtcode-review__header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nxtcode-review__info-two .nxtcode-review__reviewer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+  }
+  .nxtcode-review__info-two .nxtcode-review__reviewer-avatar {
+    margin-right: 0;
+  }
+}
+
+/* End Customer Review Two CSS */
+
+/* Start Customer Review Three CSS */
+
+
+
+/* End Customer Review Three CSS */
+
+/* Start Customer Review Four CSS */
+
+.nxtcode-review__info-four {
+  background-color: #fff;
+  border-radius: 35px 0 35px 0;
+  box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 60px 30px;
+}
+
+.nxtcode-review__info-four .nxtcode-review__header {
+  position: relative;
+}
+
+.nxtcode-review__info-four .nxtcode-review__reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.nxtcode-review__info-four .nxtcode-review__content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #6A6A6A;
+  margin: 30px 0 0;
+}
+
+.nxtcode-review__info-four .nxtcode-review__reviewer-avatar {
+  flex: none;
+  margin-right: 20px;
+}
+
+.nxtcode-review__info-four .nxtcode-review__reviewer-avatar img {
+  width: 75px;
+  height: 75px;
+}
+
+.nxtcode-review__info-four .nxtcode-review__reviewer-info h3 {
+  font-size: 20px;
+  padding: 10px 0 0;
+}
+/* End Customer Review Four CSS */
